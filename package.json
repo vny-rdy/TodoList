@@ -1,9 +1,12 @@
 {
+  "homepage": "https://vny-rdy.github.io/ReactProjects",
   "name": "video-114",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
